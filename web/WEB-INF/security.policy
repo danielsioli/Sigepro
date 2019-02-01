@@ -1,0 +1,6 @@
+// Permissões para Sigepro
+grant codeBase "file:/C:/Users/Daniel/Documents/NetBeansProjects/Sigepro/web/WEB-INF/-" {
+permission javax.security.auth.AuthPermission "createLoginContext.jdbcAuth";
+permission javax.security.auth.AuthPermission "modifyPrincipals";
+permission javax.security.auth.AuthPermission "getLoginConfiguration"; 
+};
