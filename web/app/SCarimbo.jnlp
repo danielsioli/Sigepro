@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://pvst055420:8080/sigepro/app/" href="SCarimbo.jnlp">
+    <information>
+        <title>SCarimbo</title>
+        <vendor>danieloliveira</vendor>
+        <homepage href=""/>
+        <description>SCarimbo</description>
+        <description kind="short">SCarimbo</description>
+        <icon href="SCarimbo.ico" kind="default"/>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="SCarimbo.jar" main="true" download="eager"/>
+        <jar href="lib/itext-2.0.4.jar" download="eager"/>
+        <jar href="lib/nanoxml-2.2.1.jar" download="eager"/>
+        <extension name="jnlpcomponent1" href="jnlpcomponent1.jnlp"/>
+    </resources>
+    <application-desc main-class="main.Main">
+        <argument>-run</argument>
+    </application-desc>
+</jnlp>
