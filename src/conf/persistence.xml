@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="CraftPU" transaction-type="JTA">
+    <jta-data-source>MyBDTA_MySQL</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="toplink.logging.level" value="finer"/>
+      <property name="toplink.cache.shared.default" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
